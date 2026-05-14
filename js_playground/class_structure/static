@@ -1,0 +1,17 @@
+class BePolite {
+    static sayHello() {
+        console.log("Hello")
+    }
+
+    static sayHelloTo(name) {
+        console.log(`Hello ${name}, Welcome`)
+    }
+
+    static sayBye(name) {
+        console.log(`GoodBye ${name}`)
+    }
+}
+
+BePolite.sayHello()
+BePolite.sayHelloTo("Betty")
+BePolite.sayBye("Betty")
