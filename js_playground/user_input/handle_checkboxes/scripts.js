@@ -46,3 +46,16 @@ for (let i = 0; i < radioButtons.length; i++) {
 musicDropDown.addEventListener('change', (e) => {
     musicResult.textContent = e.target.value
 })
+
+
+/*
+ *
+ NOTE : few other examples of event
+ input  — similar to the  change  event, 
+ the  input  event is emitted every time the user changes the input in a text field, 
+ and the  $event.target.value  property contains the current content of the text field
+
+ focus  /  blur  — when a user clicks or tabs to a form control and it becomes the active control, 
+ its  focus  event is emitted; when a user clicks or tabs away from a form control and it is no longer the active control, 
+ its  blur  event is emitted
+ */
