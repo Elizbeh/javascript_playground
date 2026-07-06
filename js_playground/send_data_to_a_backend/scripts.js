@@ -10,6 +10,7 @@ const responseMessage = document.getElementById('response-message');
 const responseTitle = document.getElementById('response-title');
 const responseContent = document.getElementById('response-content');
 const responseId = document.getElementById('response-id');
+
 submitButton.addEventListener('click', (e) =>{
     e.preventDefault()
     const post = {
